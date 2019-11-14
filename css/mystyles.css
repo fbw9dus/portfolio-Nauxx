@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+section {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#profilepic {
+    width: 150px;
+    height: 150px;
+    border: solid 3px orange;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 200%;
+}
+
+.underscore {
+    color: orange;
+    animation: blink-animation 1.3s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1.3s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 21%;
+    font-size: 100%;
+}
+
+.orangeletters {
+    color: orange;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+  display: block;
+}
+
+.headlink {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.headlink:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+ ul li {
+    display: block;
+    padding: 5px;
+    background-color: orange;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 10px;
+    float: right;
+    margin-top: 6px;
+  }
+  .arrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .headlines {
+      border-bottom: 2px solid orange;
+  }
+
+/* a {
+  color: orange;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
+} */
+
+#projectpic{
+  width: 80%;
+}
+
+#lebenslaufdownload {
+  margin-top: 50%;
+}
+
+.progress {
+  width: 300px;
+  height: 6px;
+  border: 3px solid orange;
+  border-radius: 7px;
+  margin: auto auto;
+}
+
+#progresshtml {
+  height: 100%;
+  width: 55%;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+#progresscss {
+  height: 100%;
+  width: 38%;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+#progressjs {
+  height: 100%;
+  width: 15%;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+.itemlink {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 40px 0px;
+  font-size: 120%;
+}
+
+.icon {
+  color: orange;
+  font-size: 140%;
+  margin-right: 20px;
+}
+
+
+
